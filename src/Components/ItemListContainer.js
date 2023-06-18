@@ -46,7 +46,7 @@ const ItemListContainer = (prop) => {
 
         return (
                 <div>
-                <h4>"cargando..."</h4>
+                <h4>"Charging..."</h4>
                 </div>
 
     )}else{

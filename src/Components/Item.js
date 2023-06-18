@@ -2,9 +2,9 @@ import { NavLink } from "react-router-dom";
 
 const Item = ({item}) => {
     return (
-            <div className="card">
+            <div className="card container-flex" >
                 <p className="fw-bolder text-center">{item.title}</p>
-                <img className="card-img-top" src={item.image} alt={item.title}/>
+                <img className="card-img-top" src={item.image} alt={item.title} style={{maxWidth:"250px", minWidth:"20%", alignSelf:"center"}}/>
                 <p className="invisible">{item.id}</p>
                 <p className="invisible card-text description">{item.description}</p>
                 <p className="fw-bolder text-center">${item.price}</p>
